@@ -1,0 +1,34 @@
+
+make sure:
+   a.   libhts / htslib (>=1.5) had done ( http://www.htslib.org/download/)
+   b.   gcc/g++  ver  >= 4.8  // support Flag [ --std=c++11 ]
+
+#############################
+Only two step :
+
+1  ./configure
+   #  you can usr the  usr the  LDFLAGS  to find the htslib library and CXXFLAGS and CFLAGS to find the htslib header
+   #  ./configure LDFLAGS=-L/usr/lib/  CFLAGS="-I/usr/include/"  CXXFLAGS="-I/usr/include/"
+   #  Export LIBRARY/CFLAGS/CXXFLAGS environment variables to set the htslib path also can be a way to compile, such : export LD_LIBRARY_PATH=/usr/lib:$LD_LIBRARY_PATH
+
+2   make
+
+
+Note if it can't work . follow below  B1-B6  or use the  static Compiled [BamDeal_Linux ] 
+
+############################################
+ #autoscan ./
+ #cp configure.scan configure.ac
+
+# if can't work,  follow below 6  commands
+B1:     aclocal             #//   src/automake-1.9/aclocal
+B2:     autoconf            #//   src/automake-1.9/autoconf
+B3:     autoheader          #//   src/automake-1.9/autoheader 
+B4:     automake --add-missing   #//  src/automake-1.9/automake  --add-missing 
+B5:      ./configure     
+B6:      make 
+#############################################
+#swimming in the sky & flying in the sea#
+
+
+

@@ -1,0 +1,728 @@
+BamDeal-BamDeal.o: BamDeal.cpp \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/iostream \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++config.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ostream \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ios \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/iosfwd \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/memoryfwd.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/postypes.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdarg.h \
+ /usr/include/bits/wchar.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stddef.h \
+ /usr/include/xlocale.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/exception \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/atomic_lockfree_defines.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/exception_ptr.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/exception_defines.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/nested_exception.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/move.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/concept_check.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/type_traits \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/char_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_algobase.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/functexcept.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/cpp_type_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/type_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/numeric_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_pair.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_types.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_funcs.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/debug/assertions.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ptr_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/debug/debug.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/predefined_ops.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstdint \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdint.h \
+ /usr/include/stdint.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/localefwd.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ios_base.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/atomicity.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/string \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/new_allocator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/new \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ostream_insert.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/cxxabi_forced.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_function.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/backward/binders.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/range_access.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/initializer_list \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/alloc_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/alloc_traits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/string_conversions.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/sys/sysmacros.h \
+ /usr/include/alloca.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstdio \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/functional_hash.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/hash_bytes.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/system_error \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/stdexcept \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/streambuf \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/streambuf.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cwctype \
+ /usr/include/wctype.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/streambuf_iterator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ostream.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/istream \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/istream.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/fstream \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++io.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/fstream.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/sstream \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/sstream.tcc \
+ /usr/include/string.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/zlib.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/zconf.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/limits.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h src/convert/covert.h src/convert/soap2bam.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/vector \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_construct.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_uninitialized.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_vector.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_bvector.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/vector.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/list \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_list.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/allocated_ptr.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/aligned_buffer.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/list.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/map \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_tree.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_map.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/tuple \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/utility \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_relops.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/array \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/uses_allocator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_multimap.h \
+ src/convert/../ALL/comm.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/math.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cmath \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h src/convert/../ALL/gzstream/gzstream.c \
+ src/convert/../ALL/gzstream/gzstream.h src/convert/../ALL/kseq.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/stdlib.h \
+ src/convert/../ALL/DataClass.h src/convert/../ALL/comm.h \
+ src/convert/dealfun.cpp \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ctime \
+ src/convert/../ALL/msort/msort.h /usr/include/assert.h \
+ src/convert/../ALL/msort/stdhashc.h src/convert/../ALL/msort/sort_funs.c \
+ src/convert/../ALL/msort/msort.h src/convert/../ALL/msort/stdhashc.cc \
+ src/convert/../ALL/msort/stdhash.hh src/convert/../ALL/msort/msort_h.h \
+ /usr/include/regex.h src/convert/../ALL/msort/../gzstream/gzstream.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/sam.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts_defs.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts_log.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/khash.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/kseq.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/bgzf.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hfile.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/kstring.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts_endian.h \
+ src/convert/bam2fq.h \
+ /ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/gzstream.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/algorithm \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_algo.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/algorithmfwd.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_heap.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_tempbuf.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/uniform_int_dist.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/limits \
+ src/convert/bam2fa.h src/convert/bam2soap.h src/modify/modify.h \
+ src/modify/bamRand.h src/modify/../ALL/comm.h \
+ src/modify/../ALL/DataClass.h src/modify/bamCat.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstring \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/iomanip \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/locale \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/time_members.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.tcc \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_conv.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h \
+ /ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/unique_ptr.h \
+ src/modify/bamFilter.h src/modify/bamShiftQ.h src/modify/bamSplit.h \
+ src/statistics/statistics.h src/statistics/BamCoverage.h \
+ src/statistics/../ALL/comm.h src/statistics/../ALL/DataClass.h \
+ src/statistics/BamShowDepthGC.h src/statistics/BamShowDepthCov.h \
+ src/statistics/BamLowDepthRegion.h src/statistics/BamShowDepthSlide.h \
+ src/statistics/BamDeteCNV.h src/statistics/Bmath/pnorm.c \
+ src/statistics/Bmath/dpq.h
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/iostream:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ostream:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ios:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/iosfwd:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/memoryfwd.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/postypes.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/exception:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/atomic_lockfree_defines.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/exception_ptr.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/exception_defines.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/nested_exception.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/move.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/concept_check.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/type_traits:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/char_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_algobase.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/functexcept.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/cpp_type_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/type_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/numeric_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_pair.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_types.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator_base_funcs.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/debug/assertions.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_iterator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ptr_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/debug/debug.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/predefined_ops.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstdint:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/localefwd.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ios_base.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/atomicity.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/string:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/new_allocator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/new:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ostream_insert.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/cxxabi_forced.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_function.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/backward/binders.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/range_access.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/initializer_list:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/alloc_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/alloc_traits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/string_conversions.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/functional_hash.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/hash_bytes.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_string.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_classes.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/system_error:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/stdexcept:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/streambuf:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/streambuf.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cwctype:
+
+/usr/include/wctype.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/streambuf_iterator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/basic_ios.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/ostream.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/istream:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/istream.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/fstream:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/basic_file.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/c++io.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/fstream.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/sstream:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/sstream.tcc:
+
+/usr/include/string.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/zlib.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/zconf.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/limits.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/lib/gcc/x86_64-pc-linux-gnu/6.4.0/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+src/convert/covert.h:
+
+src/convert/soap2bam.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/vector:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_construct.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_uninitialized.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_vector.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_bvector.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/vector.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/list:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_list.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/allocated_ptr.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ext/aligned_buffer.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/list.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/map:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_tree.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_map.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/tuple:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/utility:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_relops.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/array:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/uses_allocator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_multimap.h:
+
+src/convert/../ALL/comm.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/math.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+src/convert/../ALL/gzstream/gzstream.c:
+
+src/convert/../ALL/gzstream/gzstream.h:
+
+src/convert/../ALL/kseq.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/stdlib.h:
+
+src/convert/../ALL/DataClass.h:
+
+src/convert/../ALL/comm.h:
+
+src/convert/dealfun.cpp:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/ctime:
+
+src/convert/../ALL/msort/msort.h:
+
+/usr/include/assert.h:
+
+src/convert/../ALL/msort/stdhashc.h:
+
+src/convert/../ALL/msort/sort_funs.c:
+
+src/convert/../ALL/msort/msort.h:
+
+src/convert/../ALL/msort/stdhashc.cc:
+
+src/convert/../ALL/msort/stdhash.hh:
+
+src/convert/../ALL/msort/msort_h.h:
+
+/usr/include/regex.h:
+
+src/convert/../ALL/msort/../gzstream/gzstream.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/sam.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts_defs.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts_log.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/khash.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/kseq.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/bgzf.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hfile.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/kstring.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/htslib/hts_endian.h:
+
+src/convert/bam2fq.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/01.Usr/include/gzstream.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/algorithm:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_algo.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/algorithmfwd.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_heap.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stl_tempbuf.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/uniform_int_dist.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/limits:
+
+src/convert/bam2fa.h:
+
+src/convert/bam2soap.h:
+
+src/modify/modify.h:
+
+src/modify/bamRand.h:
+
+src/modify/../ALL/comm.h:
+
+src/modify/../ALL/DataClass.h:
+
+src/modify/bamCat.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/cstring:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/iomanip:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/locale:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/time_members.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/libintl.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_facets_nonio.tcc:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/locale_conv.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/stringfwd.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/allocator.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/codecvt.h:
+
+/ifshk4/BC_PUB/biosoft/newblc/04.UsrHgcc/include/c++/6.4.0/bits/unique_ptr.h:
+
+src/modify/bamFilter.h:
+
+src/modify/bamShiftQ.h:
+
+src/modify/bamSplit.h:
+
+src/statistics/statistics.h:
+
+src/statistics/BamCoverage.h:
+
+src/statistics/../ALL/comm.h:
+
+src/statistics/../ALL/DataClass.h:
+
+src/statistics/BamShowDepthGC.h:
+
+src/statistics/BamShowDepthCov.h:
+
+src/statistics/BamLowDepthRegion.h:
+
+src/statistics/BamShowDepthSlide.h:
+
+src/statistics/BamDeteCNV.h:
+
+src/statistics/Bmath/pnorm.c:
+
+src/statistics/Bmath/dpq.h:
