@@ -388,7 +388,7 @@ int bamCNV_main(int argc, char *argv[])
 				VecAB=false ;
 				for (int j=1 ; j< ZV_size ; j++)
 				{
-					if  (abs(One.depth-ArryRegion[j].depth)<1.5)
+					if  (fabs(One.depth-ArryRegion[j].depth)<1.5)
 					{
 						int LengthA=ArryRegion[j].end-ArryRegion[j].start+1;
 						int LengthB=One.end-One.start+1;
@@ -417,7 +417,7 @@ int bamCNV_main(int argc, char *argv[])
 
 				for (int j=1 ; j< ZV_size ; j++)
 				{
-					if  (abs(One.depth-ThisChrRegion[j].depth)<1.5)
+					if  (fabs(One.depth-ThisChrRegion[j].depth)<1.5)
 					{
 						int LengthA=ThisChrRegion[j].end-ThisChrRegion[j].start+1;
 						int LengthB=One.end-One.start+1;
