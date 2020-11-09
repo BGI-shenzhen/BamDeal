@@ -1,0 +1,918 @@
+BamDeal.o: BamDeal.cpp /share/app/gcc-5.2.0/include/c++/5.2.0/iostream \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ostream \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ios \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/iosfwd \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stringfwd.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/memoryfwd.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/postypes.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cwchar /usr/include/wchar.h \
+ /usr/include/stdio.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/stdarg.h \
+ /usr/include/bits/wchar.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/stddef.h \
+ /usr/include/xlocale.h /share/app/gcc-5.2.0/include/c++/5.2.0/exception \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/atomic_lockfree_defines.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/exception_ptr.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/exception_defines.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/nested_exception.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/char_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_algobase.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/functexcept.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/cpp_type_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/type_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/numeric_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_pair.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/move.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/concept_check.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/type_traits \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_iterator_base_types.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_iterator_base_funcs.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/debug/debug.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_iterator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/ptr_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/predefined_ops.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cstdint \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/stdint.h \
+ /usr/include/stdint.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/localefwd.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /share/app/gcc-5.2.0/include/c++/5.2.0/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/ios_base.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/atomicity.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_classes.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/string \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/allocator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/new_allocator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/new \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/ostream_insert.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/cxxabi_forced.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_function.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/backward/binders.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/range_access.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/initializer_list \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_string.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/alloc_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/alloc_traits.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/string_conversions.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cstdio /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/bits/stdio_lim.h \
+ /usr/include/bits/sys_errlist.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/functional_hash.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/hash_bytes.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_string.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_classes.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/system_error \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/error_constants.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/stdexcept \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/streambuf \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/streambuf.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_ios.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cwctype /usr/include/wctype.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/streambuf_iterator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_ios.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/ostream.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/istream \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/istream.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/fstream \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/codecvt.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/basic_file.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++io.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/fstream.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/sstream \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/sstream.tcc \
+ /usr/include/string.h /hwfswh2/BC_PUB/Software/01.Usr/include/zlib.h \
+ /hwfswh2/BC_PUB/Software/01.Usr/include/zconf.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include-fixed/limits.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h src/convert/covert.h src/convert/soap2bam.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/vector \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_construct.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_uninitialized.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_vector.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_bvector.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/vector.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/list \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_list.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/list.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/map \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_tree.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ext/aligned_buffer.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_map.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/tuple \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/utility \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_relops.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/array \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/uses_allocator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_multimap.h \
+ src/convert/../ALL/comm.h /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h src/convert/../ALL/gzstream/gzstream.c \
+ src/convert/../ALL/gzstream/gzstream.h src/convert/../ALL/kseq.h \
+ src/convert/../ALL/DataClass.h src/convert/../ALL/comm.h \
+ src/convert/../ALL/dealfun.cpp \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/ctime \
+ src/convert/../ALL/../ALL/msort/msort.h /usr/include/assert.h \
+ src/convert/../ALL/../ALL/msort/stdhashc.h \
+ src/convert/../ALL/../ALL/msort/sort_funs.c \
+ src/convert/../ALL/../ALL/msort/msort.h \
+ src/convert/../ALL/../ALL/msort/stdhashc.cc \
+ src/convert/../ALL/../ALL/msort/stdhash.hh \
+ src/convert/../ALL/../ALL/msort/msort_h.h /usr/include/regex.h \
+ src/convert/../ALL/../ALL/msort/../gzstream/gzstream.h \
+ src/convert/../ALL/../ALL/comm.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/sam.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts_defs.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts_log.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/khash.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/kseq.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/bgzf.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hfile.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/kstring.h \
+ /hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts_endian.h \
+ src/convert/bam2fq.h src/convert/../ALL/gzstream/gzstream.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/algorithm \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_algo.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/algorithmfwd.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_heap.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_tempbuf.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/random \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cmath \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/limits \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/random.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/opt_random.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/x86intrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/ia32intrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xmmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mm_malloc.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/emmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/pmmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/tmmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/ammintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/smmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/popcntintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/wmmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/immintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avxintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx2intrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512fintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512erintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512pfintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512cdintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vlintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512bwintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512dqintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vlbwintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vldqintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512ifmaintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512ifmavlintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vbmiintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vbmivlintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/shaintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/lzcntintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/bmiintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/bmi2intrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/fmaintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/f16cintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/rtmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xtestintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mm3dnow.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/prfchwintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/fma4intrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xopintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/lwpintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/tbmintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/rdseedintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/fxsrintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsaveintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsaveoptintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/adxintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/clwbintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/pcommitintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/clflushoptintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsavesintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsavecintrin.h \
+ /share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mwaitxintrin.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/random.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/numeric \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_numeric.h \
+ src/convert/bam2fa.h src/convert/bam2soap.h src/modify/modify.h \
+ src/modify/bamRand.h src/modify/../ALL/comm.h \
+ src/modify/../ALL/DataClass.h src/modify/bamCat.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/cstring \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/iomanip \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/locale \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets_nonio.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/time_members.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets_nonio.tcc \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_conv.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/stringfwd.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/allocator.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/codecvt.h \
+ /share/app/gcc-5.2.0/include/c++/5.2.0/bits/unique_ptr.h \
+ src/modify/bamFilter.h src/modify/../ALL/gzstream/gzstream.h \
+ src/modify/bamShiftQ.h src/modify/../ALL/dealfun.cpp \
+ src/modify/bamSplit.h src/modify/bamSubChr.h src/modify/bamAssign.h \
+ src/modify/bamLimit.h src/statistics/statistics.h \
+ src/statistics/BamCoverage.h src/statistics/../ALL/comm.h \
+ src/statistics/../ALL/DataClass.h src/statistics/BamLowDepthRegion.h \
+ src/statistics/BamDeteCNV.h src/statistics/Bmath/pnorm.c \
+ src/statistics/Bmath/dpq.h src/statistics/BamDeteSV.h \
+ src/statistics/BamBasesCount.h src/visualize/visualize.h \
+ src/visualize/BamStatQC.h src/visualize/../ALL/comm.h \
+ src/visualize/../ALL/DataClass.h src/visualize/../ALL/dealfun.cpp \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ src/visualize/BamShowDepthCov.h src/visualize/BamShowDepthGC.h \
+ src/visualize/BamShowDepthSlide.h
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/iostream:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++config.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ostream:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ios:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/iosfwd:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stringfwd.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/memoryfwd.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/postypes.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/exception:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/atomic_lockfree_defines.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/exception_ptr.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/exception_defines.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/nested_exception.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/char_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_algobase.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/functexcept.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/cpp_type_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/type_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/numeric_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_pair.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/move.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/concept_check.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/type_traits:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_iterator_base_types.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_iterator_base_funcs.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/debug/debug.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_iterator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/ptr_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/predefined_ops.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cstdint:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/localefwd.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/ios_base.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/atomicity.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/gthr.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/atomic_word.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_classes.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/string:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/allocator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/new_allocator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/new:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/ostream_insert.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/cxxabi_forced.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_function.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/backward/binders.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/range_access.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/initializer_list:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_string.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/alloc_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/alloc_traits.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/string_conversions.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/functional_hash.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/hash_bytes.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_string.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_classes.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/system_error:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/error_constants.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/stdexcept:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/streambuf:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/streambuf.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_ios.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cwctype:
+
+/usr/include/wctype.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/ctype_base.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/streambuf_iterator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/basic_ios.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/ostream.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/istream:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/istream.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/fstream:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/codecvt.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/basic_file.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/c++io.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/fstream.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/sstream:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/sstream.tcc:
+
+/usr/include/string.h:
+
+/hwfswh2/BC_PUB/Software/01.Usr/include/zlib.h:
+
+/hwfswh2/BC_PUB/Software/01.Usr/include/zconf.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include-fixed/limits.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+src/convert/covert.h:
+
+src/convert/soap2bam.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/vector:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_construct.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_uninitialized.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_vector.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_bvector.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/vector.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/list:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_list.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/list.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/map:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_tree.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ext/aligned_buffer.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_map.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/tuple:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/utility:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_relops.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/array:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/uses_allocator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_multimap.h:
+
+src/convert/../ALL/comm.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+src/convert/../ALL/gzstream/gzstream.c:
+
+src/convert/../ALL/gzstream/gzstream.h:
+
+src/convert/../ALL/kseq.h:
+
+src/convert/../ALL/DataClass.h:
+
+src/convert/../ALL/comm.h:
+
+src/convert/../ALL/dealfun.cpp:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/ctime:
+
+src/convert/../ALL/../ALL/msort/msort.h:
+
+/usr/include/assert.h:
+
+src/convert/../ALL/../ALL/msort/stdhashc.h:
+
+src/convert/../ALL/../ALL/msort/sort_funs.c:
+
+src/convert/../ALL/../ALL/msort/msort.h:
+
+src/convert/../ALL/../ALL/msort/stdhashc.cc:
+
+src/convert/../ALL/../ALL/msort/stdhash.hh:
+
+src/convert/../ALL/../ALL/msort/msort_h.h:
+
+/usr/include/regex.h:
+
+src/convert/../ALL/../ALL/msort/../gzstream/gzstream.h:
+
+src/convert/../ALL/../ALL/comm.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/sam.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts_defs.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts_log.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/khash.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/kseq.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/bgzf.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hfile.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/kstring.h:
+
+/hwfswh2/BC_PUB/Software/06.Develop/02.SpeUsr/include/htslib/hts_endian.h:
+
+src/convert/bam2fq.h:
+
+src/convert/../ALL/gzstream/gzstream.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/algorithm:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_algo.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/algorithmfwd.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_heap.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_tempbuf.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/random:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cmath:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/limits:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/random.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/opt_random.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/x86intrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/ia32intrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xmmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mm_malloc.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/emmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/pmmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/tmmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/ammintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/smmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/popcntintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/wmmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/immintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avxintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx2intrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512fintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512erintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512pfintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512cdintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vlintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512bwintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512dqintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vlbwintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vldqintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512ifmaintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512ifmavlintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vbmiintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/avx512vbmivlintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/shaintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/lzcntintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/bmiintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/bmi2intrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/fmaintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/f16cintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/rtmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xtestintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mm3dnow.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/prfchwintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/fma4intrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xopintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/lwpintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/tbmintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/rdseedintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/fxsrintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsaveintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsaveoptintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/adxintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/clwbintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/pcommitintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/clflushoptintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsavesintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/xsavecintrin.h:
+
+/share/app/gcc-5.2.0/lib/gcc/x86_64-unknown-linux-gnu/5.2.0/include/mwaitxintrin.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/random.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/numeric:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stl_numeric.h:
+
+src/convert/bam2fa.h:
+
+src/convert/bam2soap.h:
+
+src/modify/modify.h:
+
+src/modify/bamRand.h:
+
+src/modify/../ALL/comm.h:
+
+src/modify/../ALL/DataClass.h:
+
+src/modify/bamCat.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/cstring:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/iomanip:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/locale:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets_nonio.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/time_members.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/x86_64-unknown-linux-gnu/bits/messages_members.h:
+
+/usr/include/libintl.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_facets_nonio.tcc:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/locale_conv.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/stringfwd.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/allocator.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/codecvt.h:
+
+/share/app/gcc-5.2.0/include/c++/5.2.0/bits/unique_ptr.h:
+
+src/modify/bamFilter.h:
+
+src/modify/../ALL/gzstream/gzstream.h:
+
+src/modify/bamShiftQ.h:
+
+src/modify/../ALL/dealfun.cpp:
+
+src/modify/bamSplit.h:
+
+src/modify/bamSubChr.h:
+
+src/modify/bamAssign.h:
+
+src/modify/bamLimit.h:
+
+src/statistics/statistics.h:
+
+src/statistics/BamCoverage.h:
+
+src/statistics/../ALL/comm.h:
+
+src/statistics/../ALL/DataClass.h:
+
+src/statistics/BamLowDepthRegion.h:
+
+src/statistics/BamDeteCNV.h:
+
+src/statistics/Bmath/pnorm.c:
+
+src/statistics/Bmath/dpq.h:
+
+src/statistics/BamDeteSV.h:
+
+src/statistics/BamBasesCount.h:
+
+src/visualize/visualize.h:
+
+src/visualize/BamStatQC.h:
+
+src/visualize/../ALL/comm.h:
+
+src/visualize/../ALL/DataClass.h:
+
+src/visualize/../ALL/dealfun.cpp:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+src/visualize/BamShowDepthCov.h:
+
+src/visualize/BamShowDepthGC.h:
+
+src/visualize/BamShowDepthSlide.h:
